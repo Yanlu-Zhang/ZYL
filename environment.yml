@@ -1,0 +1,13 @@
+name: myenv
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - numpy
+  - pandas
+  - matplotlib
+  - keras
+  - tensorflow  # 添加tensorflow作为依赖
+  - pip
+  - pip:
+      - opencv-python-headless  # 通过pip安装opencv-python-headless
